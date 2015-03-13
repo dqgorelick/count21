@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<head>
+	<title>JS BlackJack</title>
+	<link rel="stylesheet" href="css/main.css">
+</head> 
+<body>
+	<html>
+		<div class="wrapper">
+			<div class="counting">
+				<p>Rules for counting:</p>
+				<ul>
+					<li>2-6: value of +1</li>
+					<li>7-9: no value</li>
+					<li>10s cards: value of -1</li>
+					<li>Aces: value of -1</li>
+				</ul>
+				<p class='count'>Current count: <span></span></p>
+				<p class='result'>Result: <span></span></p>
+				<button value ="hit" onclick="player_draw()">hit me</button>
+				<button value ="stand" onclick="dealer_draw()">stand</button>
+				<button value ="reset" onclick="reset()">new game</button>
+				<br>
+				<p class='pot'>Betting Pot: <span></span></p>
+				<button value ='bet5' onclick='betting(5)'>5 chips</button>
+				<button value ='bet25' onclick='betting(25)'>25 chips</button>
+				<button value ='bet100' onclick='betting(100)'>100 chips</button>
+				<br>
+				<button value ='recall-bet' onclick='betting(-1)'>recall bet</button>
+				<button value ='place-bet' onclick='gamecontrol(1)'>place bets</button>
+				<p class='player-chips'>Your chips: <span><span></p>
+
+			</div>
+			<div class="table dealer">Dealer's Cards: <br>
+				<span></span>
+			</div>
+			<p class="dealer_total">Total: <span></span></p>
+			<div class="table player">Player Cards: <br> 
+				<span></span>
+			</div>
+			<p class="player_total">Total: <span></span></p>
+		</div>
+	</html>
+	<script src = "js/jquery-1.10.2.min.js"></script>
+	<script src = "js/main.js"></script>
+</body>

@@ -1,0 +1,18 @@
+{
+  "name": "count21",
+  "version": "1.0.0",
+  "description": "card counting demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dqgorelick",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.18.1"
+  }
+}
