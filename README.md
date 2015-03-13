@@ -1,1 +1,1 @@
-Blackjack card counting web app
+blackjack card counting web app
