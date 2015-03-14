@@ -11,37 +11,44 @@ button{
 	top:0;
 }
 .table{
-	height:200px;
+	height:120px;
 }
 
+.controls{
+	display:none;
+}
+
+.menu0{
+	display:block;
+}
 .card{
 	position:relative;
 	float: left;
-	width: 108px;
-	height: 164px;
+	width: 60px;
+	height: 90px;
 	border-radius: 8px;
-	margin-top: 20px;
-	margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
 	border:solid;
 	border-color: #333;
 	border-width: 2px;
 	text-align:center;
+	p{
+		font-size:20px;
+		position:absolute;
+		padding:0;
+		margin:0;
+		width:28px;
+		top:37px;
+		left:0;
+		text-align:right;
+	}
 }
 
-.card p{
-	font-size:40px;
-	position:absolute;
-	padding:0;
-	margin:0;
-	width:50px;
-	top:60px;
-	left:0;
-	text-align:right;
-}
 .suit{
 	position:absolute;
-	top:51px;
-	left:55px;
-	height:50px;
+	top:28px;
+	left:30px;
+	height:35px;
 	width:auto;
 }

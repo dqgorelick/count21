@@ -1,1 +1,49 @@
-button{font-size:18px}.wrapper{position:relative;margin:2% 10% 0 10%}.counting{position:absolute;right:0;top:0}.table{height:200px}.card{position:relative;float:left;width:108px;height:164px;border-radius:8px;margin-top:20px;margin-left:20px;border:solid;border-color:#333;border-width:2px;text-align:center}.card p{font-size:40px;position:absolute;padding:0;margin:0;width:50px;top:60px;left:0;text-align:right}.suit{position:absolute;top:51px;left:55px;height:50px;width:auto}
+button {
+  font-size: 18px; }
+
+.wrapper {
+  position: relative;
+  margin: 2% 10% 0 10%; }
+
+.counting {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.table {
+  height: 120px; }
+
+.controls {
+  display: none; }
+
+.menu0 {
+  display: block; }
+
+.card {
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 90px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid;
+  border-color: #333;
+  border-width: 2px;
+  text-align: center; }
+  .card p {
+    font-size: 20px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 28px;
+    top: 37px;
+    left: 0;
+    text-align: right; }
+
+.suit {
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  height: 35px;
+  width: auto; }
