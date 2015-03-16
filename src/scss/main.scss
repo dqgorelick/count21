@@ -1,17 +1,32 @@
+html{
+	height: 100%;
+	background-color: #008001;
+	background-size: cover;
+}
+
 button{
 	font-size: 18px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	border:1px solid #000;
+
 }
+
 .wrapper{
 	position:relative;
 	margin:2% 10% 0 10%;
+	text-align: center;
 }
 .counting{
 	position:absolute;
 	right:0;
 	top:0;
+	text-align:left;
 }
 .table{
 	height:120px;
+	text-align: center;
 }
 
 .controls{
@@ -22,8 +37,9 @@ button{
 	display:block;
 }
 .card{
+	background-color:#ffffff;
 	position:relative;
-	float: left;
+	display: inline-block;
 	width: 60px;
 	height: 90px;
 	border-radius: 8px;
